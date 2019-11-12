@@ -1,5 +1,5 @@
 {
-  "name": "eosjs",
+  "name": "eosjs-classic",
   "version": "16.0.9",
   "description": "General purpose library for the EOS blockchain.",
   "main": "lib/index.js",
@@ -24,18 +24,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EOSIO/eosjs.git"
+    "url": "git+https://github.com/qiushaoxi/eosjs-classic.git"
   },
   "keywords": [
     "EOS",
-    "Blockchain"
+    "Blockchain",
+    "eosjs"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EOSIO/eosjs/issues"
+    "url": "https://github.com/qiushaoxi/eosjs-classic/issues"
   },
-  "homepage": "https://github.com/EOSIO/eosjs#readme",
+  "homepage": "https://github.com/qiushaoxi/eosjs-classic#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
