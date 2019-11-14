@@ -68,10 +68,10 @@ module.exports = (config = {}, extendedSchema) => {
 
   // Do not sort transaction actions
   config.sort = Object.assign({}, config.sort)
-  config.sort['action.authorization'] = true
-  config.sort['signed_transaction.signature'] = true
-  config.sort['authority.accounts'] = true
-  config.sort['authority.keys'] = true
+  config.sort['action.authorization'] = false
+  config.sort['signed_transaction.signature'] = false
+  config.sort['authority.accounts'] = false
+  config.sort['authority.keys'] = false
 
   const fullSchema = Object.assign({}, schema, extendedSchema)
   const {structs, types, errors, fromBuffer, toBuffer} = Fcbuffer(fullSchema, config)

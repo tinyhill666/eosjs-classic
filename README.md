@@ -1,7 +1,7 @@
 <!-- [![Build Status](https://travis-ci.org/EOSIO/eosjs.svg?branch=master)](https://travis-ci.org/EOSIO/eosjs) -->
 [![NPM](https://img.shields.io/npm/v/eosjs-classic.svg)](https://www.npmjs.org/package/eosjs-classic)
 
-# Eosjs-classic
+# eosjs-classic
 
 General purpose library for EOSIO blockchains.
 
